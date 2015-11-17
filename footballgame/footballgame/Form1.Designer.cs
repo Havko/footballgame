@@ -35,7 +35,7 @@
             // 
             // btnNewGame
             // 
-            this.btnNewGame.Location = new System.Drawing.Point(127, 160);
+            this.btnNewGame.Location = new System.Drawing.Point(143, 258);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(75, 23);
             this.btnNewGame.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(270, 160);
+            this.btnExit.Location = new System.Drawing.Point(301, 258);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
             this.btnExit.TabIndex = 2;
