@@ -10,24 +10,18 @@ using System.Windows.Forms;
 
 namespace footballgame
 {
-    public partial class mainScreen : Form
+    public partial class Game : Form
     {
-        public mainScreen()
+        public Game()
         {
             InitializeComponent();
         }
 
-        private void btnNewGame_Click(object sender, EventArgs e)
+        private void btnGameExit_Click(object sender, EventArgs e)
         {
-            Game gameForm = new Game();
-            this.Hide();
-            gameForm.ShowDialog();
+            
             this.Close();
-        }
-
-        private void btnExit_Click(object sender, EventArgs e)
-        {
-            this.Close();
+            
         }
     }
 }
